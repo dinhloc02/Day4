@@ -1,13 +1,13 @@
-package exercise;
+
 
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Execise3 {
     public static void standardized(String s) {
-        s=s.trim();
-        s=s.replaceAll("\\s+", " ");
-                String str[] = s.split(" ");
+        s = s.trim();
+        s = s.replaceAll("\\s+", " ");
+        String str[] = s.split(" ");
         s = "";
         for (int i = 0; i < str.length; ++i) {
             s += String.valueOf(str[i].charAt(0)).toUpperCase() + str[i].substring(1).toLowerCase();

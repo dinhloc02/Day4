@@ -1,4 +1,3 @@
-package exercise;
 
 public class Execise1 {
     public static boolean checkreversible(int number){
