@@ -9,16 +9,15 @@ public class Execise4 {
         int max=0;
         int position =0;
         for (int i = 0; i < s.length; ++i) {
-            int l=s[i].length();
-            n[i] = l;
-            if(l>max){
-                max=l;
+            n[i] = s[i].length();
+            if(n[i]>max){
+                max=n[i];
             }
         }
         for(int i =0;i<n.length;++i){
             if(max==n[i]){
                 System.out.println(s[i]+" có độ dài dài nhất");
-                System.out.println("vị trí "+ position);
+                System.out.println("vị trí "+ ++position);
                 break;
             }
             position+=n[i]+1;

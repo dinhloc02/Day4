@@ -12,7 +12,7 @@ public class Execise3 {
         for (int i = 0; i < str.length; ++i) {
             s += String.valueOf(str[i].charAt(0)).toUpperCase() + str[i].substring(1).toLowerCase();
             if (i < str.length - 1) {
-                s += " ";
+                s +=" ";
             }
         }
         System.out.println(s);
